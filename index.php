@@ -5,8 +5,8 @@ require('login.php');
 	<head>
 		<title>Command + Control</title>
 		<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-		<script src="modernizr.js"></script>
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="js/modernizr.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
 		<div id="top-bar">

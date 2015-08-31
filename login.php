@@ -3,7 +3,7 @@
 session_start(); 
 
 //require user configuration and database connection parameters
-require('config.php');
+require('assets/config.php');
 
 error_reporting(E_ALL);
 
@@ -69,7 +69,7 @@ if (!$_SESSION['logged_in']):
 	<!--script src="js/less-1.3.3.min.js"></script-->
 	<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
 	
-	<link href="bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
 
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
@@ -78,8 +78,8 @@ if (!$_SESSION['logged_in']):
 
 	<link rel="shortcut icon" href="img/favicon.png">
   
-	<script type="text/javascript" src="jquery.js"></script>
-	<script type="text/javascript" src="bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	
 </head>
 
